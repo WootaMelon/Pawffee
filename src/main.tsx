@@ -1,13 +1,26 @@
 import ReactDOM from 'react-dom/client'
 import App from './App.tsx'
-import { HashRouter } from 'react-router-dom'
+import {
+  createHashRouter,
+  RouterProvider
+} from 'react-router-dom'
+
+const router = createHashRouter([
+  {
+    path: "/*",
+    element: <App />,
+  }
+]);
+
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
 
   // <BrowserRouter basename='/Pawffee'>
-  <HashRouter basename="/Pawffee">
-    <App />
-  </HashRouter>
+
+  <React.StrictMode>
+    <RouterProvider router={router} />
+  </React.StrictMode>
+
   // </BrowserRouter>
 
 )
