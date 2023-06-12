@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react"
 
-const IMAGES_ARRAY = ["/Menu/menu-bg-0.png", "/Menu/menu-bg-0.png", "/Menu/menu-bg-0.png", "/Menu/menu-bg-0.png"]
+const IMAGES_ARRAY = ["Menu/menu-bg-0.png", "Menu/menu-bg-0.png", "Menu/menu-bg-0.png", "Menu/menu-bg-0.png"]
 
 
 export function Menu() {

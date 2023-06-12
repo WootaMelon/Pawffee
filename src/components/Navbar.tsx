@@ -16,7 +16,7 @@ export function Navbar() {
     return <>
         <nav className='nav' id='navbar'>
             <Link to="/">
-                <img src="/Logo.png" alt="Logo" className="navLogo" />
+                <img src="Logo.png" alt="Logo" className="navLogo" />
             </Link>
             <ul className="navLinks">
                 <li className={activeLink === "Menu" ? "activeLink" : ""} onClick={() => setActiveLink("Menu")}><Link to="/menu">Menu</Link></li>

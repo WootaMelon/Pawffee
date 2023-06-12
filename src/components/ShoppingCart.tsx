@@ -74,12 +74,12 @@ export function ShoppingCart() {
         <div ref={cartRef} className={swapAnim ? "shopping-cart-container slide-left" : "shopping-cart-container slide-right"}>
             <div className="shopping-cart-header" onClick={() => closeCart()}>
                 <Link to="." relative="path">
-                    <img src="/back-arrow.png" alt="" />
+                    <img src="back-arrow.png" alt="" />
                 </Link>
                 <h1>My Cart</h1>
             </div>
             {drinks?.filter((drink) => drink.drinkQuantity !== 0).length === 0 ? <>
-                <img src="/menhera-sulk.png" alt="" className="menhera-img" />
+                <img src="menhera-sulk.png" alt="" className="menhera-img" />
                 <h1>Nothing in Cart as of yet...</h1>
             </> : drinks?.filter((drink) => drink.drinkQuantity !== 0).map((index) => (
                 <div className="shopping-cart-item-container" key={index.id}>

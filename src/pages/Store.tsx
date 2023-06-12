@@ -17,7 +17,7 @@ const DRINK_DATA: drinkData[] = [
     {
         id: 0,
         drinkName: 'Matcha',
-        drinkImage: '/drink-grid/espresso/matcha.png',
+        drinkImage: 'drink-grid/espresso/matcha.png',
         drinkType: 'Espresso',
         drinkPrice: 120000,
         drinkQuantity: 0
@@ -25,7 +25,7 @@ const DRINK_DATA: drinkData[] = [
     }, {
         id: 1,
         drinkName: 'Chocolate & Coffee',
-        drinkImage: '/drink-grid/espresso/cat-latte.png',
+        drinkImage: 'drink-grid/espresso/cat-latte.png',
         drinkType: 'Espresso',
         drinkPrice: 120000,
         drinkQuantity: 0
@@ -33,7 +33,7 @@ const DRINK_DATA: drinkData[] = [
     {
         id: 2,
         drinkName: 'Hot Mocha',
-        drinkImage: '/drink-grid/espresso/hot-mocha.png',
+        drinkImage: 'drink-grid/espresso/hot-mocha.png',
         drinkType: 'Espresso',
         drinkPrice: 100000,
         drinkQuantity: 0
@@ -41,7 +41,7 @@ const DRINK_DATA: drinkData[] = [
     {
         id: 3,
         drinkName: 'Chocolate',
-        drinkImage: '/drink-grid/espresso/chocolate.png',
+        drinkImage: 'drink-grid/espresso/chocolate.png',
         drinkType: 'Espresso',
         drinkPrice: 110000,
         drinkQuantity: 0
@@ -49,7 +49,7 @@ const DRINK_DATA: drinkData[] = [
     {
         id: 4,
         drinkName: 'Cappuccino',
-        drinkImage: '/drink-grid/espresso/cappuccino.png',
+        drinkImage: 'drink-grid/espresso/cappuccino.png',
         drinkType: 'Espresso',
         drinkPrice: 90000,
         drinkQuantity: 0
@@ -57,7 +57,7 @@ const DRINK_DATA: drinkData[] = [
     {
         id: 5,
         drinkName: 'Espresso shot',
-        drinkImage: '/drink-grid/espresso/espresso-shot.png',
+        drinkImage: 'drink-grid/espresso/espresso-shot.png',
         drinkType: 'Espresso',
         drinkPrice: 100000,
         drinkQuantity: 0
@@ -65,7 +65,7 @@ const DRINK_DATA: drinkData[] = [
     {
         id: 6,
         drinkName: 'Matcha Latte',
-        drinkImage: '/drink-grid/Latte/matcha-latte.png',
+        drinkImage: 'drink-grid/Latte/matcha-latte.png',
         drinkType: 'Latte',
         drinkPrice: 140000,
         drinkQuantity: 0
@@ -74,7 +74,7 @@ const DRINK_DATA: drinkData[] = [
     {
         id: 7,
         drinkName: 'Marble Latte',
-        drinkImage: '/drink-grid/Latte/marble-latte.png',
+        drinkImage: 'drink-grid/Latte/marble-latte.png',
         drinkType: 'Latte',
         drinkPrice: 120000,
         drinkQuantity: 0
@@ -82,7 +82,7 @@ const DRINK_DATA: drinkData[] = [
     {
         id: 8,
         drinkName: 'Matcha Milk',
-        drinkImage: '/drink-grid/frappe/matcha-milk.png',
+        drinkImage: 'drink-grid/frappe/matcha-milk.png',
         drinkType: 'Frappe',
         drinkPrice: 160000,
         drinkQuantity: 0
@@ -90,7 +90,7 @@ const DRINK_DATA: drinkData[] = [
     {
         id: 9,
         drinkName: 'Mocha',
-        drinkImage: '/drink-grid/frappe/mocha.png',
+        drinkImage: 'drink-grid/frappe/mocha.png',
         drinkType: 'Frappe',
         drinkPrice: 130000,
         drinkQuantity: 0
@@ -98,7 +98,7 @@ const DRINK_DATA: drinkData[] = [
     {
         id: 10,
         drinkName: 'Charcoal',
-        drinkImage: '/drink-grid/frappe/charcoal.png',
+        drinkImage: 'drink-grid/frappe/charcoal.png',
         drinkType: 'Frappe',
         drinkPrice: 145000,
         drinkQuantity: 0
@@ -106,7 +106,7 @@ const DRINK_DATA: drinkData[] = [
     {
         id: 11,
         drinkName: 'Caramel Machiato',
-        drinkImage: '/drink-grid/frappe/caramel-machiato.png',
+        drinkImage: 'drink-grid/frappe/caramel-machiato.png',
         drinkType: 'Frappe',
         drinkPrice: 145000,
         drinkQuantity: 0
@@ -114,7 +114,7 @@ const DRINK_DATA: drinkData[] = [
     {
         id: 12,
         drinkName: 'Choco Chip & Biscuit',
-        drinkImage: '/drink-grid/frappe/choco.png',
+        drinkImage: 'drink-grid/frappe/choco.png',
         drinkType: 'Frappe',
         drinkPrice: 135000,
         drinkQuantity: 0
@@ -122,7 +122,7 @@ const DRINK_DATA: drinkData[] = [
     {
         id: 13,
         drinkName: 'Strawberry Milk & lotus',
-        drinkImage: '/drink-grid/frappe/strawberry-milk-lotus.png',
+        drinkImage: 'drink-grid/frappe/strawberry-milk-lotus.png',
         drinkType: 'Frappe',
         drinkPrice: 160000,
         drinkQuantity: 0
@@ -130,7 +130,7 @@ const DRINK_DATA: drinkData[] = [
     {
         id: 14,
         drinkName: 'Pink Drink',
-        drinkImage: '/drink-grid/refreshers/pink-drink.png',
+        drinkImage: 'drink-grid/refreshers/pink-drink.png',
         drinkType: 'Refreshers',
         drinkPrice: 140000,
         drinkQuantity: 0
@@ -138,7 +138,7 @@ const DRINK_DATA: drinkData[] = [
     {
         id: 15,
         drinkName: 'Strawberry Acai',
-        drinkImage: '/drink-grid/refreshers/strawberry-acai.jpg',
+        drinkImage: 'drink-grid/refreshers/strawberry-acai.jpg',
         drinkType: 'Refreshers',
         drinkPrice: 120000,
         drinkQuantity: 0
@@ -146,7 +146,7 @@ const DRINK_DATA: drinkData[] = [
     {
         id: 16,
         drinkName: 'Strawberry Milk & lotus',
-        drinkImage: '/drink-grid/refreshers/lemonade.png',
+        drinkImage: 'drink-grid/refreshers/lemonade.png',
         drinkType: 'Refreshers',
         drinkPrice: 100000,
         drinkQuantity: 0
@@ -194,7 +194,7 @@ export function Store() {
             <nav className="store-top-nav">
                 <div className="back-arrow">
                     <Link to=".." relative="path">
-                        <img src="/back-arrow.png" alt="" />
+                        <img src="back-arrow.png" alt="" />
                     </Link>
                 </div>
                 <div className="store-item-types">
@@ -202,7 +202,7 @@ export function Store() {
                     <button className={currentTab === "Foods" ? "food-btn active-type-button" : "food-btn"} onClick={() => setCurrentTab("Foods")}>Foods</button>
                 </div>
                 <div className="cart-div">
-                    <img src="/cart-icon.png" className="cart-icon-store" alt="" onClick={() => setOpenCart(!openCart)} />
+                    <img src="cart-icon.png" className="cart-icon-store" alt="" onClick={() => setOpenCart(!openCart)} />
                     {openCart ?
                         <DrinkContext.Provider value={{ drinks, setDrinks }}>
                             <ShoppingCartContext.Provider value={{ openCart, setOpenCart }}>
@@ -232,7 +232,7 @@ export function Store() {
                 </>
                 :
                 <div className="foods-container">
-                    <img src="/bongo-cat-transparent.gif" alt="" />
+                    <img src="bongo-cat-transparent.gif" alt="" />
                     <h1 className="foods-header">Coming Soon...</h1>
                 </div>
             }

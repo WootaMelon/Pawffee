@@ -3,10 +3,10 @@ import { Link } from 'react-router-dom'
 export function Homepage() {
 
     const defaultImages = {
-        Drink: "/pinkDrink.png",
-        pawTop: "/homepawtop.png",
-        pawBottom: "/homepawbottom-full.png",
-        miniPaws: '/mini-paws.png'
+        Drink: "pinkDrink.png",
+        pawTop: "homepawtop.png",
+        pawBottom: "homepawbottom-full.png",
+        miniPaws: 'mini-paws.png'
 
     }
     const [images, setImages] = useState(defaultImages);
@@ -18,10 +18,10 @@ export function Homepage() {
         if (isPinkDrink) {
             setImages(() => {
                 return {
-                    Drink: "/matcha-latte.png",
-                    pawTop: "/homepawtop-matcha.png",
-                    pawBottom: '/homepawbottom-full-matcha.png',
-                    miniPaws: '/mini-paws-matcha.png'
+                    Drink: "matcha-latte.png",
+                    pawTop: "homepawtop-matcha.png",
+                    pawBottom: 'homepawbottom-full-matcha.png',
+                    miniPaws: 'mini-paws-matcha.png'
                 }
             })
             setIsPinkDrink(false)
@@ -29,10 +29,10 @@ export function Homepage() {
         if (!isPinkDrink) {
             setImages(() => {
                 return {
-                    Drink: "/pinkDrink.png",
-                    pawTop: "/homepawtop.png",
-                    pawBottom: "/homepawbottom-full.png",
-                    miniPaws: '/mini-paws.png'
+                    Drink: "pinkDrink.png",
+                    pawTop: "homepawtop.png",
+                    pawBottom: "homepawbottom-full.png",
+                    miniPaws: 'mini-paws.png'
                 }
             })
             setIsPinkDrink(true)

@@ -14,50 +14,50 @@ const DATA: catData[] = [
     {
         id: 1,
         name: 'snowy',
-        gender: '/female.png',
-        image: '/cat.png'
+        gender: 'female.png',
+        image: 'cat.png'
     },
     {
         id: 2,
         name: 'snowy',
-        gender: '/female.png',
-        image: '/cat1.png'
+        gender: 'female.png',
+        image: 'cat1.png'
     },
     {
         id: 3,
         name: 'Tiger',
-        gender: '/male.png',
-        image: '/cat3.png'
+        gender: 'male.png',
+        image: 'cat3.png'
     },
     {
         id: 4,
         name: 'Rex',
-        gender: '/male.png',
-        image: '/cat4.png'
+        gender: 'male.png',
+        image: 'cat4.png'
     },
     {
         id: 5,
         name: 'snowy',
-        gender: '/female.png',
-        image: '/cat5.png'
+        gender: 'female.png',
+        image: 'cat5.png'
     },
     {
         id: 6,
         name: 'snowy',
-        gender: '/female.png',
-        image: '/cat6.png'
+        gender: 'female.png',
+        image: 'cat6.png'
     },
     {
         id: 7,
         name: 'snowy',
-        gender: '/female.png',
-        image: '/cat7.png'
+        gender: 'female.png',
+        image: 'cat7.png'
     },
     {
         id: 8,
         name: 'Ash',
-        gender: '/male.png',
-        image: '/cat8.png'
+        gender: 'male.png',
+        image: 'cat8.png'
     },
 ]
 
@@ -84,7 +84,7 @@ export function Adopt() {
                     </h3>
                 </div>
                 <div className="adopt-top-paw">
-                    <img src="/homepawtop.png" alt="" />
+                    <img src="homepawtop.png" alt="" />
                 </div>
             </div>
             <div className="adopt-bottom-div">
@@ -95,7 +95,7 @@ export function Adopt() {
                 </div>
 
                 <div className="adopt-bottom-paw">
-                    <img src="/homepawbottom-full.png" alt="" />
+                    <img src="homepawbottom-full.png" alt="" />
                 </div>
             </div>
         </>

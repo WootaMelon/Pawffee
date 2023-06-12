@@ -9,52 +9,53 @@ const DATA: catData[] = [
     {
         id: 1,
         name: 'snowy',
-        gender: '/female.png',
-        image: '/cat.png'
+        gender: 'female.png',
+        image: 'cat.png'
     },
     {
         id: 2,
         name: 'snowy',
-        gender: '/female.png',
-        image: '/cat1.png'
+        gender: 'female.png',
+        image: 'cat1.png'
     },
     {
         id: 3,
         name: 'Tiger',
-        gender: '/male.png',
-        image: '/cat3.png'
+        gender: 'male.png',
+        image: 'cat3.png'
     },
     {
         id: 4,
         name: 'Rex',
-        gender: '/male.png',
-        image: '/cat4.png'
+        gender: 'male.png',
+        image: 'cat4.png'
     },
     {
         id: 5,
         name: 'snowy',
-        gender: '/female.png',
-        image: '/cat5.png'
+        gender: 'female.png',
+        image: 'cat5.png'
     },
     {
         id: 6,
         name: 'snowy',
-        gender: '/female.png',
-        image: '/cat6.png'
+        gender: 'female.png',
+        image: 'cat6.png'
     },
     {
         id: 7,
         name: 'snowy',
-        gender: '/female.png',
-        image: '/cat7.png'
+        gender: 'female.png',
+        image: 'cat7.png'
     },
     {
         id: 8,
         name: 'Ash',
-        gender: '/male.png',
-        image: '/cat8.png'
+        gender: 'male.png',
+        image: 'cat8.png'
     },
 ]
+
 
 export function Cat() {
 
@@ -114,7 +115,7 @@ export function Cat() {
         {filteredData.map((i) => (<div className="cat-content-container" key={i.id}>
             <div className="back-arrow-container" >
                 <Link to=".." relative="path">
-                    <img src="/back-arrow.png" alt="" />
+                    <img src="back-arrow.png" alt="" />
                 </Link>
             </div>
             <div className="cat-main-content-container">
