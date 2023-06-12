@@ -1,11 +1,13 @@
 import ReactDOM from 'react-dom/client'
 import App from './App.tsx'
-import { BrowserRouter } from 'react-router-dom'
+import { HashRouter } from 'react-router-dom'
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
 
-  <BrowserRouter basename='/Pawffee'>
+  // <BrowserRouter basename='/Pawffee'>
+  <HashRouter basename="/Pawffee">
     <App />
-  </BrowserRouter>
+  </HashRouter>
+  // </BrowserRouter>
 
 )
