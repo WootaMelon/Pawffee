@@ -1,0 +1,42 @@
+.card-body {
+  position: relative;
+  height: fit-content;
+  width: max-content;
+}
+.card-body img {
+  width: 200px;
+  height: 300px;
+  border-radius: 20px;
+}
+
+.cat-name,
+.cat-gender {
+  position: absolute;
+  width: max-content;
+  background: #ffffff;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0.5rem;
+}
+
+.cat-name {
+  bottom: 2%;
+  left: 5%;
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  padding: 0.25rem 1.5rem;
+
+  color: var(--color-brown);
+}
+
+.cat-gender {
+  bottom: 2%;
+  right: 5%;
+  padding: 0 1rem;
+}
+
+.cat-gender img {
+  width: 90%;
+  height: auto;
+}

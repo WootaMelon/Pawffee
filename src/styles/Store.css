@@ -1,0 +1,159 @@
+.store-top-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+}
+
+.store-item-types button,
+.search-buttons button,
+.foods-header {
+  font-family: "Poppins", sans-serif;
+}
+
+.beverages-btn {
+  border: none;
+  background-color: #f9dfd2;
+  padding: 0.5rem 4rem;
+  margin-right: 2rem;
+  box-shadow: 0px 2px 4px rgba(222, 193, 179, 0.21);
+  border-radius: 10px;
+  color: var(--color-brown);
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.food-btn {
+  border: none;
+  background-color: #f9dfd2;
+  padding: 0.5rem 4rem;
+  box-shadow: 0px 2px 4px rgba(222, 193, 179, 0.21);
+  border-radius: 10px;
+  font-size: 1rem;
+  color: var(--color-brown);
+  font-weight: bold;
+}
+
+.search-buttons {
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding: 2rem;
+}
+
+.search-buttons button {
+  margin: 0 1rem;
+}
+.search-buttons img {
+  position: absolute;
+}
+
+.espresso-btn,
+.latte-btn,
+.frappe-btn,
+.refreshers-btn {
+  background-color: #f9dfd2;
+}
+
+.espresso-btn,
+.latte-btn,
+.frappe-btn,
+.refreshers-btn {
+  border: none;
+  padding: 0.5rem 4rem;
+  box-shadow: 0px 2px 4px rgba(222, 193, 179, 0.21);
+  border-radius: 10px;
+}
+
+.espresso-btn:hover,
+.latte-btn:hover,
+.frappe-btn:hover,
+.refreshers-btn:hover,
+.cart-icon-store:hover {
+  cursor: pointer;
+}
+
+.drink-cards {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  justify-items: center;
+}
+
+.open-cart {
+  pointer-events: none;
+}
+
+.active-type-button {
+  background-color: var(--color-salmon);
+  color: var(--color-white);
+}
+
+.active-beverages-button {
+  background-color: var(--color-brown);
+  color: #f9dfd2;
+}
+
+.foods-container {
+  text-align: center;
+  margin-top: 10rem;
+  color: var(--color-brown);
+  width: max-content;
+  margin: 0 auto;
+  position: relative;
+}
+
+.foods-container img {
+  padding-top: 2rem;
+  width: 80%;
+  height: auto;
+}
+
+.foods-container h1 {
+  font-size: 3rem;
+}
+
+@media screen and (max-width: 768px) {
+  .store-item-types {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    align-content: end;
+  }
+
+  .beverages-btn {
+    padding: 0.5rem 0.5rem;
+    margin-right: 0;
+  }
+
+  .food-btn {
+    padding: 0.5rem 2rem;
+  }
+
+  .search-buttons {
+    flex-direction: column;
+  }
+  .search-buttons button {
+    margin-bottom: 0.5rem;
+  }
+
+  .search-buttons {
+    width: max-content;
+    margin: 0 auto;
+  }
+
+  .search-buttons img {
+    position: absolute;
+    top: 8%;
+    left: 5%;
+  }
+  .latte-btn,
+  .frappe-btn {
+    padding: 0.5rem 4.5rem;
+  }
+  .refreshers-btn {
+    padding: 0.5rem 4.5rem;
+  }
+}

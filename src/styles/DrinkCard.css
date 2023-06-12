@@ -1,0 +1,74 @@
+.drink-card-div {
+  background: #f9dfd2;
+  border-radius: 15px;
+  width: max-content;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0.5rem;
+  margin: 1rem;
+}
+
+.drink-card-title,
+.drink-card-price {
+  font-family: "Poppins", sans-serif;
+  color: var(--color-brown);
+}
+
+.drink-card-content {
+  width: 100%;
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.drink-card-image {
+  margin: 0 auto;
+  width: fit-content;
+  text-align: center;
+}
+.drink-card-image img {
+  width: 200px;
+  height: 200px;
+}
+
+.drink-card-price {
+  background: #ffffff;
+  border-radius: 10px;
+  margin-bottom: 0.5rem;
+  margin-left: 0.5rem;
+  padding: 0.75rem 0.5rem;
+  letter-spacing: 0.1rem;
+}
+
+.add-to-cart-btn {
+  background: none;
+  cursor: pointer;
+  border: 2px solid var(--color-brown);
+  filter: drop-shadow(0px 2px 4px rgba(222, 193, 179, 0.21));
+  white-space: nowrap;
+  border-radius: 10px;
+  margin-bottom: 0.5rem;
+  margin-right: 0.5rem;
+  padding: 0.75rem 0.5rem;
+  letter-spacing: 0.1rem;
+}
+
+.add-subtract-drink-quantity button {
+  background: none;
+  cursor: pointer;
+  border: 2px solid var(--color-brown);
+  filter: drop-shadow(0px 2px 4px rgba(222, 193, 179, 0.21));
+  white-space: nowrap;
+  border-radius: 10px;
+  margin-bottom: 0.5rem;
+  margin-right: 0.5rem;
+  padding: 0.25rem 0.5rem;
+  letter-spacing: 0.1rem;
+}
+
+.add-subtract-drink-quantity span {
+  padding-right: 0.5rem;
+}

@@ -1,0 +1,61 @@
+/* Adopt Page */
+
+.adopt-top-div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 2rem 5rem;
+  position: relative;
+}
+
+.adopt-header-text,
+.adopt-header-text-bottom {
+  font-family: "Poppins", sans-serif;
+  font-size: 3rem;
+  color: var(--color-brown);
+}
+.adopt-header-text {
+  font-weight: lighter;
+}
+
+.adopt-header-text-body {
+  font-family: "Poppins", sans-serif;
+  color: var(--color-salmon);
+  font-weight: lighter;
+}
+
+.adopt-top-paw {
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+
+.adopt-bottom-div {
+  position: relative;
+}
+
+.adopt-bottom-paw {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.cat-card-grid {
+  padding: 0 0.25rem;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  animation: myAnim 2s ease 0s 1 normal forwards;
+}
+
+@media screen and (max-width: 768px) {
+  .adopt-header-text,
+  .adopt-header-text-bottom {
+    font-size: 2rem;
+  }
+  .adopt-header-text-body {
+    font-size: 0.75rem;
+  }
+}
