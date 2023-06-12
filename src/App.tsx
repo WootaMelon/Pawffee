@@ -1,5 +1,5 @@
 import { Navbar } from "./components/Navbar"
-import { Route, Routes } from 'react-router-dom'
+import { HashRouter, Route, Routes } from 'react-router-dom'
 import { Homepage } from './pages/Homepage'
 import { Adopt } from './pages/Adopt'
 import { NotFound } from './pages/NotFound'
@@ -21,19 +21,21 @@ function App() {
 
   return (
     <>
-      <Navbar />
-      <Routes>
-        <Route path="/" element={<Homepage />} />
-        <Route path="/adopt">
-          <Route index element={<Adopt />} />
-          <Route path=":id" element={<Cat />} />
-        </Route>
-        <Route path="/menu" element={<Menu />} />
-        <Route path="/reviews" element={<Reviews />} />
-        <Route path="/store" element={<Store />} />
-        <Route path="/profile" element={<Orders />} />
-        <Route path="*" element={<NotFound />} />
-      </Routes>
+      <HashRouter basename="/">
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Homepage />} />
+          <Route path="/adopt">
+            <Route index element={<Adopt />} />
+            <Route path=":id" element={<Cat />} />
+          </Route>
+          <Route path="/menu" element={<Menu />} />
+          <Route path="/reviews" element={<Reviews />} />
+          <Route path="/store" element={<Store />} />
+          <Route path="/profile" element={<Orders />} />
+          <Route path="*" element={<NotFound />} />
+        </Routes>
+      </HashRouter>
     </>
   )
 }
