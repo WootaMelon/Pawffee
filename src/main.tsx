@@ -17,9 +17,9 @@ ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
 
   // <BrowserRouter basename='/Pawffee'>
 
-  <React.StrictMode>
-    <RouterProvider router={router} />
-  </React.StrictMode>
+
+  <RouterProvider router={router} />
+
 
   // </BrowserRouter>
 
